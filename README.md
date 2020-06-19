@@ -23,6 +23,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Run clang-format style check for C programs.
-      uses: jidicula/clang-format-action@master
+    - name: Run clang-format style check for C and C++ programs.
+      uses: luis-nogoseke/clang-format-action@master
 ```

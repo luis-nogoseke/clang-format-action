@@ -5,8 +5,8 @@ LABEL "com.github.actions.description"="Run clang-format style check for C progr
 LABEL "com.github.actions.icon"="check-circle"
 LABEL "com.github.actions.color"="blue"
 
-LABEL "repository"="https://github.com/jidicula/github-action-clang-format.git"
-LABEL "homepage"="https://github.com/jidicula/github-action-clang-format"
+LABEL "repository"="https://github.com/luis-nogoseke/github-action-clang-format.git"
+LABEL "homepage"="https://github.com/luis-nogoseke/github-action-clang-format"
 LABEL "maintainer"="jidicula <johanan.idicula@mail.mcgill.ca>"
 
 # Install clang-format
