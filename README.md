@@ -5,10 +5,10 @@ This action checks all C files (.c and .h) in the GitHub workspace are formatted
 
 The action returns:
 
-* SUCCESS: zero exit-code if project C files are formatted correctly
-* FAILURE: nonzero exit-code if project C files are not formatted correctly
+* SUCCESS: zero exit-code if project C/C++ files are formatted correctly
+* FAILURE: nonzero exit-code if project C/C++ files are not formatted correctly
 
-Define your own formatting rules in a .clang-format file at your repository root. Otherwise, the LLVM style guide is used as a default. My preference is the [Linux Project format](https://github.com/torvalds/linux/blob/master/.clang-format).
+Define your own formatting rules in a .clang-format file at your repository root. Otherwise, the Google style guide is used as a default.
 
 # Usage
 
